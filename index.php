@@ -817,11 +817,24 @@
                 <div class="footer-widget footer-menu">
                   <h2 class="footer-title">For Patients</h2>
                   <ul>
-                    <li><a href="search.php">Search for Doctors</a></li>
-                    <li><a href="login.php">Login</a></li>
-                    <li><a href="register.php">Register</a></li>
-                    <li><a href="booking.php">Booking</a></li>
-                    <li>
+                    <?php
+            if (isset($_GET['page'])) {
+                $page = $_GET['page'];
+                if ($page == 'bills') {
+                    include 'bills.php';
+                } elseif ($page == 'payments') {
+                    include 'payments.php';
+                } elseif ($page == 'routes') {
+                    include 'routes.php';
+                } elseif ($page == 'customers') {
+                    include 'customers.php';
+                } elseif ($page == 'premises') {
+                    include 'premises.php';
+                } 
+            } else {
+                include 'home.php';
+            }
+            ?>
                       <a href="patient-dashboard.php">Patient Dashboard</a>
                     </li>
                   </ul>
@@ -832,7 +845,6 @@
                   <h2 class="footer-title">For Hospitals</h2>
                   <ul>
                     <li><a href="appointments.php">Appointments</a></li>
-                    <li><a href="chat.php">Chat</a></li>
                     <li><a href="login.php">Login</a></li>
                     <li><a href="doctor-register.php">Register</a></li>
                     <li>
