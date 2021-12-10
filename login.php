@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   
@@ -66,6 +68,7 @@
                       <button
                         class="btn btn-primary btn-block btn-lg login-btn"
                         type="submit"
+                        
                       >
                         Login
                       </button>
@@ -111,6 +114,7 @@
     <script src="assets/js/bootstrap.min.js"></script>
 
     <script src="assets/js/script.js"></script>
+    <script src="testing.js"></script>
   </body>
 
   <!-- Mirrored from Healthhub-html.dreamguystech.com/template/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:28:36 GMT -->
