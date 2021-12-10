@@ -53,11 +53,11 @@
                       action="#"
                     >
                       <div class="form-group form-focus">
-                        <input type="email" class="form-control floating" />
+                        <input type="email" class="form-control floating" id="gather_email1"/>
                         <label class="focus-label">Email</label>
                       </div>
                       <div class="form-group form-focus">
-                        <input type="password" class="form-control floating" />
+                        <input type="password" class="form-control floating" id="gather_password1" />
                         <label class="focus-label">Password</label>
                       </div>
                       <div class="text-right">
