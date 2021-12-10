@@ -39,13 +39,13 @@
                 <span></span>
               </span>
             </a>
-            <a href="index.html" class="navbar-brand logo">
+            <a href="index.php" class="navbar-brand logo">
               <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
             </a>
           </div>
           <div class="main-menu-wrapper">
             <div class="menu-header">
-              <a href="index.html" class="menu-logo">
+              <a href="index.php" class="menu-logo">
                 <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
               </a>
               <a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -93,13 +93,13 @@
                     <p class="text-muted mb-0">Doctor</p>
                   </div>
                 </div>
-                <a class="dropdown-item" href="doctor-dashboard.html"
+                <a class="dropdown-item" href="doctor-dashboard.php"
                   >Dashboard</a
                 >
-                <a class="dropdown-item" href="doctor-profile-settings.html"
+                <a class="dropdown-item" href="doctor-profile-settings.php"
                   >Profile Settings</a
                 >
-                <a class="dropdown-item" href="login.html">Logout</a>
+                <a class="dropdown-item" href="login.php">Logout</a>
               </div>
             </li>
           </ul>
@@ -112,7 +112,7 @@
             <div class="col-md-12 col-12">
               <nav aria-label="breadcrumb" class="page-breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                   <li class="breadcrumb-item active" aria-current="page">
                     Available Timings
                   </li>
@@ -151,31 +151,31 @@
                   <nav class="dashboard-menu">
                     <ul>
                       <li>
-                        <a href="doctor-dashboard.html">
+                        <a href="doctor-dashboard.php">
                           <i class="fas fa-columns"></i>
                           <span>Dashboard</span>
                         </a>
                       </li>
                       <li>
-                        <a href="appointments.html">
+                        <a href="appointments.php">
                           <i class="fas fa-calendar-check"></i>
                           <span>Appointments</span>
                         </a>
                       </li>
                       <li>
-                        <a href="my-patients.html">
+                        <a href="my-patients.php">
                           <i class="fas fa-user-injured"></i>
                           <span>My Patients</span>
                         </a>
                       </li>
                       <li>
-                        <a href="schedule-timings.html">
+                        <a href="schedule-timings.php">
                           <i class="fas fa-hourglass-start"></i>
                           <span>Schedule Timings</span>
                         </a>
                       </li>
                       <li class="active">
-                        <a href="available-timings.html">
+                        <a href="available-timings.php">
                           <i class="fas fa-clock"></i>
                           <span>Available Timings</span>
                         </a>
@@ -741,5 +741,5 @@
     <script src="assets/js/script.js"></script>
   </body>
 
-  <!-- Mirrored from doccure-html.dreamguystech.com/template/available-timings.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:29:15 GMT -->
+  <!-- Mirrored from doccure-html.dreamguystech.com/template/available-timings.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:29:15 GMT -->
 </html>

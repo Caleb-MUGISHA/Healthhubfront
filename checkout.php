@@ -37,13 +37,13 @@
                 <span></span>
               </span>
             </a>
-            <a href="index.html" class="navbar-brand logo">
+            <a href="index.php" class="navbar-brand logo">
               <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
             </a>
           </div>
           <div class="main-menu-wrapper">
             <div class="menu-header">
-              <a href="index.html" class="menu-logo">
+              <a href="index.php" class="menu-logo">
                 <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
               </a>
               <a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -62,7 +62,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link header-login" href="login.html"
+              <a class="nav-link header-login" href="login.php"
                 >login / Signup
               </a>
             </li>
@@ -76,7 +76,7 @@
             <div class="col-md-12 col-12">
               <nav aria-label="breadcrumb" class="page-breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                   <li class="breadcrumb-item active" aria-current="page">
                     Checkout
                   </li>
@@ -232,7 +232,7 @@
                 </div>
                 <div class="card-body">
                   <div class="booking-doc-info">
-                    <a href="doctor-profile.html" class="booking-doc-img">
+                    <a href="doctor-profile.php" class="booking-doc-img">
                       <img
                         src="assets/img/doctors/doctor-thumb-02.jpg"
                         alt="User Image"
@@ -240,7 +240,7 @@
                     </a>
                     <div class="booking-info">
                       <h4>
-                        <a href="doctor-profile.html">Dr. Darren Elder</a>
+                        <a href="doctor-profile.php">Dr. Darren Elder</a>
                       </h4>
                       <div class="rating">
                         <i class="fas fa-star filled"></i>

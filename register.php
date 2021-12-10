@@ -21,10 +21,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.min.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    
   </head>
   <body class="account-page">
     <div class="main-wrapper">
@@ -40,34 +37,42 @@
                     <img
                       src="assets/img/login-banner.png"
                       class="img-fluid"
-                      alt="Healthhub Login"
+                      alt="Healthhub Register"
                     />
                   </div>
                   <div class="col-md-12 col-lg-6 login-right">
                     <div class="login-header">
-                      <h3>Login <span>Healthhub</span></h3>
+                      <h3>
+                        Patient Register
+                        <a href="doctor-register.php">Are you a Doctor?</a>
+                      </h3>
                     </div>
+
                     <form
                       action="#"
                     >
                       <div class="form-group form-focus">
-                        <input type="email" class="form-control floating" />
-                        <label class="focus-label">Email</label>
+                        <input type="text" class="form-control floating" />
+                        <label class="focus-label">Name</label>
+                      </div>
+                      <div class="form-group form-focus">
+                        <input type="text" class="form-control floating" />
+                        <label class="focus-label">Mobile Number</label>
                       </div>
                       <div class="form-group form-focus">
                         <input type="password" class="form-control floating" />
-                        <label class="focus-label">Password</label>
+                        <label class="focus-label">Create Password</label>
                       </div>
                       <div class="text-right">
-                        <a class="forgot-link" href="forgot-password.html"
-                          >Forgot Password ?</a
+                        <a class="forgot-link" href="login.php"
+                          >Already have an account?</a
                         >
                       </div>
                       <button
                         class="btn btn-primary btn-block btn-lg login-btn"
                         type="submit"
                       >
-                        Login
+                        Signup
                       </button>
                       <div class="login-or">
                         <span class="or-line"></span>
@@ -85,10 +90,6 @@
                           >
                         </div>
                       </div>
-                      <div class="text-center dont-have">
-                        Don’t have an account?
-                        <a href="register.html">Register</a>
-                      </div>
                     </form>
                   </div>
                 </div>
@@ -98,7 +99,7 @@
         </div>
       </div>
 
-      
+	  
     </div>
 
     <script
@@ -113,5 +114,5 @@
     <script src="assets/js/script.js"></script>
   </body>
 
-  <!-- Mirrored from Healthhub-html.dreamguystech.com/template/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:28:36 GMT -->
+
 </html>

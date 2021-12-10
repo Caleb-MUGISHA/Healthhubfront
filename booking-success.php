@@ -35,13 +35,13 @@
 <span class="bar-icon">
 
 </a>
-<a href="index.html" class="navbar-brand logo">
+<a href="index.php" class="navbar-brand logo">
 <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
 </a>
 </div>
 <div class="main-menu-wrapper">
 <div class="menu-header">
-<a href="index.html" class="menu-logo">
+<a href="index.php" class="menu-logo">
 <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
 </a>
 <a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -62,7 +62,7 @@
 </div>
 </li>
 <li class="nav-item">
-<a class="nav-link header-login" href="login.html">login / Signup </a>
+<a class="nav-link header-login" href="login.php">login / Signup </a>
 </li>
 </ul>
 </nav>

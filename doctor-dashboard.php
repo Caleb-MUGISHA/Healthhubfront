@@ -37,13 +37,13 @@
                 <span></span>
               </span>
             </a>
-            <a href="index.html" class="navbar-brand logo">
+            <a href="index.php" class="navbar-brand logo">
               <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
             </a>
           </div>
           <div class="main-menu-wrapper">
             <div class="menu-header">
-              <a href="index.html" class="menu-logo">
+              <a href="index.php" class="menu-logo">
                 <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
               </a>
               <a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -91,13 +91,13 @@
                     <p class="text-muted mb-0">Doctor</p>
                   </div>
                 </div>
-                <a class="dropdown-item" href="doctor-dashboard.html"
+                <a class="dropdown-item" href="doctor-dashboard.php"
                   >Dashboard</a
                 >
-                <a class="dropdown-item" href="doctor-profile-settings.html"
+                <a class="dropdown-item" href="doctor-profile-settings.php"
                   >Profile Settings</a
                 >
-                <a class="dropdown-item" href="login.html">Logout</a>
+                <a class="dropdown-item" href="login.php">Logout</a>
               </div>
             </li>
           </ul>
@@ -110,7 +110,7 @@
             <div class="col-md-12 col-12">
               <nav aria-label="breadcrumb" class="page-breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                   <li class="breadcrumb-item active" aria-current="page">
                     Dashboard
                   </li>
@@ -149,31 +149,31 @@
                   <nav class="dashboard-menu">
                     <ul>
                       <li class="active">
-                        <a href="doctor-dashboard.html">
+                        <a href="doctor-dashboard.php">
                           <i class="fas fa-columns"></i>
                           <span>Dashboard</span>
                         </a>
                       </li>
                       <li>
-                        <a href="appointments.html">
+                        <a href="appointments.php">
                           <i class="fas fa-calendar-check"></i>
                           <span>Appointments</span>
                         </a>
                       </li>
                       <li>
-                        <a href="my-patients.html">
+                        <a href="my-patients.php">
                           <i class="fas fa-user-injured"></i>
                           <span>My Patients</span>
                         </a>
                       </li>
                       <li>
-                        <a href="schedule-timings.html">
+                        <a href="schedule-timings.php">
                           <i class="fas fa-hourglass-start"></i>
                           <span>Schedule Timings</span>
                         </a>
                       </li>
                       <li>
-                        <a href="available-timings.html">
+                        <a href="available-timings.php">
                           <i class="fas fa-clock"></i>
                           <span>Available Timings</span>
                         </a>
@@ -289,14 +289,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Richard Wilson
                                           <span>#PT0016</span></a
                                         >
@@ -338,14 +338,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient1.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Charlene Reed <span>#PT0001</span></a
                                         >
                                       </h2>
@@ -386,14 +386,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient2.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Travis Trimble
                                           <span>#PT0002</span></a
                                         >
@@ -435,14 +435,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient3.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Carl Kelly <span>#PT0003</span></a
                                         >
                                       </h2>
@@ -483,14 +483,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient4.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Michelle Fairfax
                                           <span>#PT0004</span></a
                                         >
@@ -532,14 +532,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient5.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Gina Moore <span>#PT0005</span></a
                                         >
                                       </h2>
@@ -605,14 +605,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient6.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Elsie Gilley <span>#PT0006</span></a
                                         >
                                       </h2>
@@ -653,14 +653,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient7.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Joan Gardner <span>#PT0006</span></a
                                         >
                                       </h2>
@@ -701,14 +701,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient8.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Daniel Griffing
                                           <span>#PT0007</span></a
                                         >
@@ -750,14 +750,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient9.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Walter Roberson
                                           <span>#PT0008</span></a
                                         >
@@ -799,14 +799,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient10.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Robert Rhodes <span>#PT0010</span></a
                                         >
                                       </h2>
@@ -847,14 +847,14 @@
                                     <td>
                                       <h2 class="table-avatar">
                                         <a
-                                          href="patient-profile.html"
+                                          href="patient-profile.php"
                                           class="avatar avatar-sm mr-2"
                                           ><img
                                             class="avatar-img rounded-circle"
                                             src="assets/img/patients/patient11.jpg"
                                             alt="User Image"
                                         /></a>
-                                        <a href="patient-profile.html"
+                                        <a href="patient-profile.php"
                                           >Harry Williams
                                           <span>#PT0011</span></a
                                         >

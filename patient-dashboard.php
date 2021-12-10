@@ -34,13 +34,13 @@
                 <span></span>
               </span>
             </a>
-            <a href="index.html" class="navbar-brand logo">
+            <a href="index.php" class="navbar-brand logo">
               <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
             </a>
           </div>
           <div class="main-menu-wrapper">
             <div class="menu-header">
-              <a href="index.html" class="menu-logo">
+              <a href="index.php" class="menu-logo">
                 <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
               </a>
               <a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -88,13 +88,13 @@
                     <p class="text-muted mb-0">Patient</p>
                   </div>
                 </div>
-                <a class="dropdown-item" href="patient-dashboard.html"
+                <a class="dropdown-item" href="patient-dashboard.php"
                   >Dashboard</a
                 >
-                <a class="dropdown-item" href="profile-settings.html"
+                <a class="dropdown-item" href="profile-settings.php"
                   >Profile Settings</a
                 >
-                <a class="dropdown-item" href="login.html">Logout</a>
+                <a class="dropdown-item" href="login.php">Logout</a>
               </div>
             </li>
           </ul>
@@ -134,7 +134,7 @@
                   <nav class="dashboard-menu">
                     <ul>
                       <li class="active">
-                        <a href="patient-dashboard.html">
+                        <a href="patient-dashboard.php">
                           <i class="fas fa-columns"></i>
                           <span>Dashboard</span>
                         </a>
@@ -143,17 +143,17 @@
                       </li>
                    
                       <li>
-                        <a href="medical-records.html">
+                        <a href="medical-records.php">
                           <i class="fas fa-clipboard"></i>
                           <span>Add Medical Records</span>
                         </a>
                       </li>
                       <li>
-                        <a href="medical-details.html">
+                        <a href="medical-details.php">
                           <i class="fas fa-file-medical-alt"></i>
                           <span>Medical Details</span>
                         </a>
-						<a href="booking.html">
+						<a href="booking.php">
                           <i class="fas fa-file-medical-alt"></i>
                           <span>Booking</span>
                         </a>
@@ -300,7 +300,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -309,7 +309,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Ruby Perrin <span>Dental</span></a
                                       >
                                     </h2>
@@ -350,7 +350,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -359,7 +359,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Darren Elder <span>Dental</span></a
                                       >
                                     </h2>
@@ -400,7 +400,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -409,7 +409,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Deborah Angel
                                         <span>Cardiology</span></a
                                       >
@@ -451,7 +451,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -460,7 +460,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Sofia Brient
                                         <span>Urology</span></a
                                       >
@@ -502,7 +502,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -511,7 +511,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Marvin Campbell
                                         <span>Ophthalmology</span></a
                                       >
@@ -553,7 +553,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -562,7 +562,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Katharine Berthold
                                         <span>Orthopaedics</span></a
                                       >
@@ -604,7 +604,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -613,7 +613,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Linda Tobin
                                         <span>Neurology</span></a
                                       >
@@ -655,7 +655,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -664,7 +664,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Paul Richard
                                         <span>Dermatology</span></a
                                       >
@@ -706,7 +706,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -715,7 +715,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. John Gibbs <span>Dental</span></a
                                       >
                                     </h2>
@@ -756,7 +756,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -765,7 +765,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Olga Barlow <span>Dental</span></a
                                       >
                                     </h2>
@@ -838,7 +838,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -847,7 +847,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Ruby Perrin <span>Dental</span></a
                                       >
                                     </h2>
@@ -879,7 +879,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -888,7 +888,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Darren Elder <span>Dental</span></a
                                       >
                                     </h2>
@@ -920,7 +920,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -929,7 +929,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Deborah Angel
                                         <span>Cardiology</span></a
                                       >
@@ -962,7 +962,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -971,7 +971,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Sofia Brient
                                         <span>Urology</span></a
                                       >
@@ -1004,7 +1004,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -1013,7 +1013,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Marvin Campbell
                                         <span>Ophthalmology</span></a
                                       >
@@ -1046,7 +1046,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -1055,7 +1055,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Katharine Berthold
                                         <span>Orthopaedics</span></a
                                       >
@@ -1088,7 +1088,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -1097,7 +1097,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Linda Tobin
                                         <span>Neurology</span></a
                                       >
@@ -1130,7 +1130,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -1139,7 +1139,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Paul Richard
                                         <span>Dermatology</span></a
                                       >
@@ -1172,7 +1172,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -1181,7 +1181,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. John Gibbs <span>Dental</span></a
                                       >
                                     </h2>
@@ -1213,7 +1213,7 @@
                                   <td>
                                     <h2 class="table-avatar">
                                       <a
-                                        href="doctor-profile.html"
+                                        href="doctor-profile.php"
                                         class="avatar avatar-sm mr-2"
                                       >
                                         <img
@@ -1222,7 +1222,7 @@
                                           alt="User Image"
                                         />
                                       </a>
-                                      <a href="doctor-profile.html"
+                                      <a href="doctor-profile.php"
                                         >Dr. Olga Barlow <span>Dental</span></a
                                       >
                                     </h2>
@@ -1363,5 +1363,5 @@
     <script src="assets/js/script.js"></script>
   </body>
 
-  <!-- Mirrored from Healthhub-html.dreamguystech.com/template/patient-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:28:23 GMT -->
+  <!-- Mirrored from Healthhub-html.dreamguystech.com/template/patient-dashboard.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:28:23 GMT -->
 </html>

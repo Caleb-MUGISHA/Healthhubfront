@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="utf-8" />
-    <title>HealthHub</title>
+    <title>Healthhub</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=0"
@@ -27,48 +28,7 @@
   </head>
   <body class="account-page">
     <div class="main-wrapper">
-      <header class="header">
-        <nav class="navbar navbar-expand-lg header-nav">
-          <div class="navbar-header">
-            <a id="mobile_btn" href="javascript:void(0);">
-              <span class="bar-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-            </a>
-            <a href="index.html" class="navbar-brand logo">
-              <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
-            </a>
-          </div>
-          <div class="main-menu-wrapper">
-            <div class="menu-header">
-              <a href="index.html" class="menu-logo">
-                <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
-              </a>
-              <a id="menu_close" class="menu-close" href="javascript:void(0);">
-                <i class="fas fa-times"></i>
-              </a>
-            </div>
-          </div>
-          <ul class="nav header-navbar-rht">
-            <li class="nav-item contact-item">
-              <div class="header-contact-img">
-                <i class="far fa-hospital"></i>
-              </div>
-              <div class="header-contact-detail">
-                <p class="contact-header">Contact</p>
-                <p class="contact-info-header">+250 784 200 694</p>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link header-login" href="login.html"
-                >login / Signup
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      
 
       <div class="content">
         <div class="container-fluid">
@@ -80,40 +40,34 @@
                     <img
                       src="assets/img/login-banner.png"
                       class="img-fluid"
-                      alt="Login Banner"
+                      alt="Healthhub Login"
                     />
                   </div>
                   <div class="col-md-12 col-lg-6 login-right">
                     <div class="login-header">
-                      <h3>
-                        Doctor Register
-                        <a href="register.html">Not a Doctor?</a>
-                      </h3>
+                      <h3>Login <span>Healthhub</span></h3>
                     </div>
-
-                    <form action="#">
+                    <form
+                      action="#"
+                    >
                       <div class="form-group form-focus">
-                        <input type="text" class="form-control floating" />
-                        <label class="focus-label">Name</label>
-                      </div>
-                      <div class="form-group form-focus">
-                        <input type="text" class="form-control floating" />
-                        <label class="focus-label">Mobile Number</label>
+                        <input type="email" class="form-control floating" />
+                        <label class="focus-label">Email</label>
                       </div>
                       <div class="form-group form-focus">
                         <input type="password" class="form-control floating" />
-                        <label class="focus-label">Create Password</label>
+                        <label class="focus-label">Password</label>
                       </div>
                       <div class="text-right">
-                        <a class="forgot-link" href="login.html"
-                          >Already have an account?</a
+                        <a class="forgot-link" href="forgot-password.php"
+                          >Forgot Password ?</a
                         >
                       </div>
                       <button
                         class="btn btn-primary btn-block btn-lg login-btn"
                         type="submit"
                       >
-                        Signup
+                        Login
                       </button>
                       <div class="login-or">
                         <span class="or-line"></span>
@@ -131,6 +85,10 @@
                           >
                         </div>
                       </div>
+                      <div class="text-center dont-have">
+                        Don’t have an account?
+                        <a href="register.php">Register</a>
+                      </div>
                     </form>
                   </div>
                 </div>
@@ -139,6 +97,8 @@
           </div>
         </div>
       </div>
+
+      
     </div>
 
     <script
@@ -152,4 +112,6 @@
 
     <script src="assets/js/script.js"></script>
   </body>
+
+  <!-- Mirrored from Healthhub-html.dreamguystech.com/template/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:28:36 GMT -->
 </html>

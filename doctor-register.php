@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
     <meta charset="utf-8" />
-    <title>Healthhub</title>
+    <title>HealthHub</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=0"
@@ -21,11 +20,55 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body class="account-page">
     <div class="main-wrapper">
-      
+      <header class="header">
+        <nav class="navbar navbar-expand-lg header-nav">
+          <div class="navbar-header">
+            <a id="mobile_btn" href="javascript:void(0);">
+              <span class="bar-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </a>
+            <a href="index.php" class="navbar-brand logo">
+              <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+            </a>
+          </div>
+          <div class="main-menu-wrapper">
+            <div class="menu-header">
+              <a href="index.php" class="menu-logo">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+              </a>
+              <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                <i class="fas fa-times"></i>
+              </a>
+            </div>
+          </div>
+          <ul class="nav header-navbar-rht">
+            <li class="nav-item contact-item">
+              <div class="header-contact-img">
+                <i class="far fa-hospital"></i>
+              </div>
+              <div class="header-contact-detail">
+                <p class="contact-header">Contact</p>
+                <p class="contact-info-header">+250 784 200 694</p>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-login" href="login.php"
+                >login / Signup
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
       <div class="content">
         <div class="container-fluid">
@@ -37,20 +80,18 @@
                     <img
                       src="assets/img/login-banner.png"
                       class="img-fluid"
-                      alt="Healthhub Register"
+                      alt="Login Banner"
                     />
                   </div>
                   <div class="col-md-12 col-lg-6 login-right">
                     <div class="login-header">
                       <h3>
-                        Patient Register
-                        <a href="doctor-register.html">Are you a Doctor?</a>
+                        Doctor Register
+                        <a href="register.php">Not a Doctor?</a>
                       </h3>
                     </div>
 
-                    <form
-                      action="#"
-                    >
+                    <form action="#">
                       <div class="form-group form-focus">
                         <input type="text" class="form-control floating" />
                         <label class="focus-label">Name</label>
@@ -64,7 +105,7 @@
                         <label class="focus-label">Create Password</label>
                       </div>
                       <div class="text-right">
-                        <a class="forgot-link" href="login.html"
+                        <a class="forgot-link" href="login.php"
                           >Already have an account?</a
                         >
                       </div>
@@ -98,8 +139,6 @@
           </div>
         </div>
       </div>
-
-	  
     </div>
 
     <script
@@ -113,6 +152,4 @@
 
     <script src="assets/js/script.js"></script>
   </body>
-
-
 </html>

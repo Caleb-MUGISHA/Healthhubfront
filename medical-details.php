@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Mirrored from doccure-html.dreamguystech.com/template/medical-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:29:19 GMT -->
-  <head>
+    <head>
     <meta charset="utf-8" />
     <title>Doccure</title>
     <meta
@@ -40,13 +39,13 @@
                 <span></span>
               </span>
             </a>
-            <a href="index.html" class="navbar-brand logo">
+            <a href="index.php" class="navbar-brand logo">
               <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
             </a>
           </div>
           <div class="main-menu-wrapper">
             <div class="menu-header">
-              <a href="index.html" class="menu-logo">
+              <a href="index.php" class="menu-logo">
                 <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
               </a>
               <a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -94,13 +93,13 @@
                     <p class="text-muted mb-0">Patient</p>
                   </div>
                 </div>
-                <a class="dropdown-item" href="patient-dashboard.html"
+                <a class="dropdown-item" href="patient-dashboard.php"
                   >Dashboard</a
                 >
-                <a class="dropdown-item" href="profile-settings.html"
+                <a class="dropdown-item" href="profile-settings.php"
                   >Profile Settings</a
                 >
-                <a class="dropdown-item" href="login.html">Logout</a>
+                <a class="dropdown-item" href="login.php">Logout</a>
               </div>
             </li>
           </ul>
@@ -113,7 +112,7 @@
             <div class="col-md-12 col-12">
               <nav aria-label="breadcrumb" class="page-breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                   <li class="breadcrumb-item active" aria-current="page">
                     Medical Details
                   </li>
@@ -156,20 +155,20 @@
                   <nav class="dashboard-menu">
                     <ul>
                       <li>
-                        <a href="patient-dashboard.html">
+                        <a href="patient-dashboard.php">
                           <i class="fas fa-columns"></i>
                           <span>Dashboard</span>
                         </a>
                       </li>
 
                       <li>
-                        <a href="medical-records.html">
+                        <a href="medical-records.php">
                           <i class="fas fa-clipboard"></i>
                           <span>Add Medical Records</span>
                         </a>
                       </li>
                       <li class="active">
-                        <a href="medical-details.html">
+                        <a href="medical-details.php">
                           <i class="fas fa-file-medical-alt"></i>
                           <span>Medical Details</span>
                         </a>
@@ -552,5 +551,5 @@
     <script src="assets/js/script.js"></script>
   </body>
 
-  <!-- Mirrored from doccure-html.dreamguystech.com/template/medical-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Aug 2021 15:29:19 GMT -->
+  
 </html>
