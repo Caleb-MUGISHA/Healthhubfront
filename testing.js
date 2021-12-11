@@ -5,6 +5,7 @@ var gather_email1 = document.getElementById("gather_email1")
 var gather_password1 = document.getElementById("gather_password1")
 
 login.addEventListener("submit", (e) => {
+    preventDefault();
     console.log("object")
         // axios.post('https://healthhubb.herokuapp.com/users/signin', {
 
