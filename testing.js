@@ -31,11 +31,13 @@ const formEvent = form.addEventListener('submit', event => {
     const email = document.querySelector('#gather_email1').value;
     const password = document.querySelector('#gather_password1').value;
 
-    axios.post('https://healthhubb.herokuapp.com/users/signin', {
+    // axios.post('https://healthhubb.herokuapp.com/users/signin', {
 
-        emailaddress: email,
-        password: password
-    })
+    //     emailaddress: email,
+    //     password: password
+    // })
+    console.log(email);
+    console.log(password)
 
 });
 
