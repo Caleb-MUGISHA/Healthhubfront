@@ -13,11 +13,12 @@ login.addEventListener("submit", (e) => {
 
     .then(function(response) {
         console.log(response);
+        render(home.php);
     })
 
     .catch(function(error) {
         console.log(error);
     });
-    render(home.php);
+
 
 })
