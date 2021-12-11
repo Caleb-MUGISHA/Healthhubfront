@@ -50,7 +50,8 @@
                       <h3>Login <span>Healthhub</span></h3>
                     </div>
                     <form
-                      
+                      action="https://healthhubb.herokuapp.com/users/signin"
+                      method="POST"
                     >
                       <div class="form-group form-focus">
                         <input type="email" class="form-control floating" id="gather_email1"/>
