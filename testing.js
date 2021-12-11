@@ -26,17 +26,17 @@ console.log(gather_password1.value)
 const form = document.querySelector('form');
 
 const formEvent = form.addEventListener('submit', event => {
-event.preventDefault();
+    event.preventDefault();
 
-const email = document.querySelector('#gather_email1').value;
-const password = document.querySelector('#gather_password1').value;
+    const email = document.querySelector('#gather_email1').value;
+    const password = document.querySelector('#gather_password1').value;
 
-axios.post('https://healthhubb.herokuapp.com/users/signin', {
+    axios.post('https://healthhubb.herokuapp.com/users/signin', {
 
-    emailaddress: email,
-    password: password
-})
+        emailaddress: email,
+        password: password
+    })
 
 });
 
-})
+// })
