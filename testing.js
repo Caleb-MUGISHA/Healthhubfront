@@ -5,20 +5,24 @@ var gather_email1 = document.querySelector("gather_email1")
 var gather_password1 = document.querySelector("gather_password1")
 
 login.addEventListener("click", (e) => {
-    axios.post('https://healthhubb.herokuapp.com/users/signin', {
 
-        emailaddress: gather_email1.value,
-        password: gather_password1.value
-    })
 
-    .then(function(response) {
-        console.log(response);
-        render(home.php);
-    })
+    console.log(gather_email1.value)
+    console.log(gather_password1.value)
+        // axios.post('https://healthhubb.herokuapp.com/users/signin', {
 
-    .catch(function(error) {
-        console.log(error);
-    });
+    //     emailaddress: gather_email1.value,
+    //     password: gather_password1.value
+    // })
+
+    // .then(function(response) {
+    //     console.log(response);
+    //     render(home.php);
+    // })
+
+    // .catch(function(error) {
+    //     console.log(error);
+    // });
 
 
 })
