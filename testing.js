@@ -1,4 +1,4 @@
-require('axios');
+import 'axios';
 
 var login = document.getElementById("login-form");
 var gather_email1 = document.getElementById("gather_email1")
