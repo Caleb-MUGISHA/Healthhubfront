@@ -23,7 +23,7 @@ console.log(gather_password1.value)
 // .catch(function(error) {
 //     console.log(error);
 // });
-const form = document.querySelector('form');
+const form = document.querySelector('input-submit');
 
 const formEvent = form.addEventListener('submit', event => {
     event.preventDefault();
