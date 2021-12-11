@@ -49,10 +49,7 @@
                     <div class="login-header">
                       <h3>Login <span>Healthhub</span></h3>
                     </div>
-                    <form
-                      action="https://healthhubb.herokuapp.com/users/signin"
-                      method="POST"
-                    >
+                    <form>
                       <div class="form-group form-focus">
                         <input type="email" class="form-control floating" id="gather_email1"/>
                         <label class="focus-label">Email</label>
@@ -70,6 +67,7 @@
                         id='input-submit'
                         class="btn btn-primary btn-block btn-lg login-btn"
                         type="submit"
+                        
                         
                         
                       >
