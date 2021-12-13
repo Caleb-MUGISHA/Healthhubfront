@@ -1,12 +1,18 @@
 {
-    "name": "php",
+    "name": "healthhub-frontend",
     "version": "1.0.0",
+    "description": "HealthHub ",
+    "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node index.js"
+
     },
-
-
+    "keywords": [
+        "Health-Hub"
+    ],
+    "author": "Adio Adedeji Roheem & Wanjiru Waang'ondu & Caleb Mugisha",
+    "license": "ISC",
     "dependencies": {
         "axios": "^0.24.0"
     }
